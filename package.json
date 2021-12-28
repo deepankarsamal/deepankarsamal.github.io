@@ -1,0 +1,12 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i layouts/style.css -o layouts/tailwind.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

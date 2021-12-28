@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .hidden {
+        visibility: hidden;
+    }
+    body {
+        margin: 0;
+        font-family: 'Raleway';
+        overscroll-behavior: none;
+    }
+
+    .hello {
+        font-family: 'Raleway';
+
+    }
+
+    .name {
+        font-family: 'Birthstone Bounce';
+
+    }
+
+    .intro span{
+        font-family: 'Birthstone Bounce';
+    }
+
+
+
+    .carousel span {
+        padding: 10px;
+        font-size: 8rem;
+        font-family: 'Birthstone Bounce'
+
+    }
+}

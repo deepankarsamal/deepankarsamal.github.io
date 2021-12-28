@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&family=Pacifico&family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body class="bg-indigo-200">
+    <div class="cover py-24">
+      <div class="header font-extrabold mx-auto px-[1.8rem] rounded-lg">
+        <div class="hello text-indigo-100 text-4xl">hello, this is</div>
+        <div
+          class="
+            name
+            first-letter:text-[12rem]
+            text-center text-8xl text-indigo-400
+            drop-shadow-xl
+            max-h-max
+          "
+        >
+          rohan
+        </div>
+      </div>
+    </div>
+
+    <div class="intro text-center text-lg mt-60">
+      <p>
+        wondering
+        <span class="block text-gray-400 text-6xl font-semibold">who </span> I
+        am ?
+      </p>
+    </div>
+
+    <div
+      class="
+        carousel
+        snap-x snap-proximity
+        text-xl
+        scroll-smooth
+        bg-indigo-200
+        min-h-screen
+        flex
+        overflow-x-auto
+        flex-row
+        gap-5
+        text-center
+        py-[150%]
+        section
+      "
+    >
+      <div class="snap-center scroll-smooth min-w-full font-bold">
+        I am a <span class="text-red-300 text-4xl">creator.</span>
+        <img
+          src="/images.jpg"
+          class="mx-auto my-20 rounded-xl border-8"
+          alt=""
+        />
+      </div>
+
+      <div class="scroll-smooth snap-center min-w-full font-bold">
+        I am a <span class="text-emerald-100 text-4xl">student.</span>
+      </div>
+
+      <div class="scroll-smooth snap-center min-w-full font-bold">
+        I build <span class="text-cyan-400 text-4xl">things.</span>
+      </div>
+    </div>
+
+    <div class="about p-10">
+      <h1 class="font-bold text-xl border-b-[6px] border-indigo-500 w-20">
+        About
+      </h1>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
+      dolorem atque sunt ducimus placeat tenetur consectetur voluptatem, saepe
+      aliquid quas voluptates officiis nihil itaque earum assumenda perferendis
+      obcaecati, eum autem.
+    </div>
+
+    <div class="work scroll-snap mt-40 p-10">
+      <h1 class="font-bold text-xl border-b-[6px] border-amber-500 w-20">
+        Work
+      </h1>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
+      dolorem atque sunt ducimus placeat tenetur consectetur voluptatem, saepe
+      aliquid quas voluptates officiis nihil itaque earum assumenda perferendis
+      obcaecati, eum autem.
+    </div>
+
+    <div class="Connect mt-40 p-10">
+      <h1 class="font-bold text-xl border-b-[6px] border-cyan-500 w-24">
+        Connect
+      </h1>
+      Get to know me at
+      <span class="text-indigo-800 font-bold">ipsitamet.work@gmail.com </span>
+    </div>
+    <script>
+      ScrollReveal().reveal(".name", {
+        delay: 500,
+        scale: 2,
+        origin: "top",
+        duration: 700,
+        easing: "ease",
+        rotate: {
+          x: 20,
+          z: 20,
+        },
+        reset: true,
+      });
+    </script>
+  </body>
+</html>
